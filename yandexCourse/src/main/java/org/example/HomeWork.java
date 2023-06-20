@@ -13,8 +13,8 @@ public class HomeWork {
      */
     public static int reverse(int value) {
         checkingNumberOfCharacters(value, (byte) 4);
-        String res = new StringBuilder(String.valueOf(value)).reverse().toString();
-        return Integer.parseInt(res);
+        String rev = new StringBuilder(String.valueOf(value)).reverse().toString();
+        return Integer.parseInt(rev);
     }
 
     /**
